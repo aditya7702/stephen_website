@@ -1,0 +1,81 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset=""UTF-8" name="viewport" content="with=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="u.css">
+        <title>university website design</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+           <nav>
+               <a href="index.html"><img src="logo.png"</a>
+               <div class="nav-links"id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                   <ul>
+                       <li>
+                           <a href="index.html">HOME</a>
+                       </li>
+                       <li>
+                        <a href="about.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="courses.html">COURSE</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACT</a>
+                    </li>
+                   </ul>
+               </div>
+               <i class="fa fa-bars" onclick="showMenu()"></i>>
+           </nav>
+           <h1> About us</h1>
+    
+  
+        </section>
+        <section class="about-us">
+            <div class="about-col">
+                <h1>STEPHEN UNIVERSITY </h1><p> officially Leland Stanford Junior University, is a private research university in Stanford, California. The campus occupies 8,180 acres (3,310 hectares), among the largest in the United States, and enrolls over 17,000 students.[15] Stanford is ranked among the top universities in the world.
+
+            </p>
+            <a href=""class="hero-btn red-btn">Explore now</a>
+            <img src="C:/Users/adity/OneDrive/Desktop/html/images/about.jpg">
+            </div>
+        </section>
+        
+        
+        <section class="footer">
+            <h4>about us</h4>
+            <p>for more information visit our main campus between 10 am to 4 pm</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                
+            </div>
+            <p>made by<i class="fa fa-heart-o"></i>Aditya </p>
+
+        </section>
+        <!-----javascript----->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu()
+            {
+                navLinks.style.right = "0";
+            }
+            function hideMenu()
+            {
+            navLinks.style.right = "-260px";
+            }
+        </script>
+    </body>
+
+
+</html>
